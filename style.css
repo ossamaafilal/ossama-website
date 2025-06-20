@@ -1,4 +1,4 @@
-/* Apply a modern font */
+/* 🌐 Main Styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -52,4 +52,26 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* 📱 Mobile Styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  header {
+    padding: 15px;
+  }
 }

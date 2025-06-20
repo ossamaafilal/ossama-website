@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,145 +7,40 @@
   <link rel="stylesheet" href="style.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
       background: #fff;
       color: #333;
     }
+
+    /* Navigation styling like Mojasurf */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #fff;
+      padding: 30px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #7b6b5f;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 25px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a3907e;
+    }
+
     .hero {
       position: relative;
       height: 400px;
       background: url('your-image.jpg') center/cover no-repeat;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-    }
-    .hero h1 {
-      color: white;
-      font-size: 48px;
-      background-color: rgba(0,0,0,0.5);
-      padding: 10px 20px;
-      border-radius: 10px;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    .description {
-      text-align: center;
-      font-size: 18px;
-      margin-bottom: 40px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      border: 1px solid #ccc;
-      border-radius: 12px;
-      overflow: hidden;
-      transition: box-shadow 0.3s ease;
-    }
-    .card:hover {
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-    .card-content {
-      padding: 20px;
-    }
-    .card-title {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .card-text {
-      font-size: 14px;
-      color: #555;
-    }
-  </style>
-</head>
-<body>  <nav>
-    <a href="index.html">Home</a> |
-    <a href="services.html">Dreadlocks Services</a> |
-    <a href="portfolio.html">Portfolio</a> |
-    <a href="contact.html">Contact</a>
-  </nav>  <div class="hero">
-    <h1>SERVICES</h1>
-  </div>  <div class="container">
-    <p class="description">
-      Dreadlocks Morocco is based on indoor and outdoor services. Feel free to tell us where you are and send us your location on WhatsApp. I’ll be happy to come to your place.
-    </p><div class="grid">
-  <div class="card">
-    <img src="images/handmade-extensions.jpg" alt="Handmade Dreadlock Extensions">
-    <div class="card-content">
-      <div class="card-title">Handmade Dreadlock Extensions</div>
-      <div class="card-text">We specialize in creating handmade dreadlock extensions crafted with care and precision. We offer installations with your preferred color ensuring your locks are as unique as you are.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/root-maintenance.jpg" alt="Root Maintenance">
-    <div class="card-content">
-      <div class="card-title">Dreadlock and Root Maintenance</div>
-      <div class="card-text">We provide top-quality maintenance services including retwisting and root care to keep your dreadlocks looking fresh and healthy.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/lock-strengthening.jpg" alt="Lock Strengthening">
-    <div class="card-content">
-      <div class="card-title">Lock Strengthening</div>
-      <div class="card-text">If your locks are thinning in certain areas, we offer a strengthening service that adds thickness to your locks using techniques that ensure durability and volume.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/nourishing.jpg" alt="Nourishing">
-    <div class="card-content">
-      <div class="card-title">Dreadlock Nourishing (Free)</div>
-      <div class="card-text">Our nourishing service includes natural oils and treatments to maintain the health and strength of your dreadlocks. Included free with every service.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/detox.jpg" alt="Detox">
-    <div class="card-content">
-      <div class="card-title">Dreadlock Detox</div>
-      <div class="card-text">Our detox service cleanses your locks from accumulated dirt and buildup, leaving them fresh and revitalized.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/insect-removal.jpg" alt="Insect Removal">
-    <div class="card-content">
-      <div class="card-title">Insect Removal Service</div>
-      <div class="card-text">We provide a professional service to remove any insects from your locks without the need to cut them off, ensuring your locks stay intact and healthy.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/coloring.jpg" alt="Coloring">
-    <div class="card-content">
-      <div class="card-title">Dreadlock Coloring Services</div>
-      <div class="card-text">Enhance your dreadlocks with rich, vibrant colors tailored to your style. We use high-quality products for lasting results.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/freeform.jpg" alt="Freeform">
-    <div class="card-content">
-      <div class="card-title">Freeform & Hair Quotient</div>
-      <div class="card-text">Form well-maintained natural dreadlocks with expert care and precision.</div>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/customized.jpg" alt="Customized">
-    <div class="card-content">
-      <div class="card-title">Customized Dreadlocks Services</div>
-      <div class="card-text">We offer personalized solutions for all your dreadlock needs. Reach out with your request and we will create a custom plan just for you.</div>
-    </div>
-  </div>
-</div>
-
-  </div></body>
-</html>
+      text-align:
